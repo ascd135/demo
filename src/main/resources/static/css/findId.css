@@ -1,0 +1,269 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, em, img, strong,
+b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, embed, figure, figcaption, footer, header, nav, section, summary,
+audio, video, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-style: normal;
+}
+
+main {
+    min-height: calc(100vh - 330px);
+}
+
+.width868 .r_head, .width868 #container, .width868 .info_policy, .width868 .copyright {
+    width: 868px;
+}
+
+article, aside, figcaption, figure, footer, header, nav, section, main {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+input, select, textarea, button {
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.r_header.bg {
+    background: #3c4790;
+}
+
+.r_header.bg .dc_logo {
+    top: 30px;
+}
+
+.r_header .r_head{
+    height: 85px;
+}
+
+.r_head {
+    position: relative;
+    width: 868px;
+    height: 105px;
+    margin: 0 auto;
+}
+
+.r_header.bg a {
+    color: white;
+}
+
+.r_logo {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    text-align: center;
+}
+
+.r_logo a{
+    display: block;
+    float: left;
+}
+
+.r_header.bg .area_links {
+    top:47px;
+}
+
+.area_links {
+    position: absolute;
+    top: 9px;
+    right:0;
+}
+
+.area_links a {
+    font-size: 12px;
+}
+
+
+.area_links ul {
+    overflow: hidden;
+    line-height: 19px;
+}
+
+.area_links li {
+    float: left;
+}
+
+.area_links li::before {
+    content: "|";
+    color: #ccc;
+    font-size: 11px;
+    line-height: 11px;
+    padding: 0 3px 0 5px;
+}
+
+.area_links li:first-child:before {
+    display: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#container {
+    width: 868px;
+    margin: 20px auto 0;
+}
+
+.login_wrap #container {
+    margin-top: 40px;
+}
+
+.page_menu{
+    margin: 0 0 40px -8px;
+}
+
+.clear:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    content: "";
+}
+
+.p_menu.on {
+    border-color: #3a4892;
+    background: #fff;
+    color: #3c4790;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.p_menu {
+    display: block;
+    height: 56px;
+    line-height: 56px;
+    margin-left: 8px;
+    border: 2px #aaabab solid;
+    border-radius: 10px;
+    background: #aaabab;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px -1px #909292;
+
+}
+
+.page_menu li {
+    float: left;
+    width: 50%;
+}
+
+ol > li, ul > li {
+    margin-bottom: 5px;
+}
+
+
+.foot {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 1px solid black;
+    position : relative;
+    bottom : 0;
+    padding-bottom : 50px;
+}
+
+.info {
+    margin: 28px auto 0;
+    text-align: center;
+}
+
+.info a {
+    color : black;
+}
+
+.info a:first-child:before {
+    display: none;
+}
+
+.info a:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 10px;
+    vertical-align: -1px;
+    background: #d7d7d7;
+}
+
+.content_box.brd {
+    min-height: 400px;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+
+.content_box {
+    margin: 25px 0 7px;
+}
+
+.login_wrap .con.inner_box{
+    width: 600px;
+}
+
+.con {
+    padding: 58px 0 58px;
+    margin: 0 auto;;
+}
+
+.bg_box {
+    padding: 46px 0 46px;
+    margin: 26px 0 35px;
+    background: lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+
+}
+
+.form_box {
+    width: 290px;
+    margin: 0 auto;
+}
+
+
+.int {
+    width: 100%;
+    height: 35px;
+    padding: 0px 9px 0 9px;
+    line-height: 33px;
+    border: 1px #cecdce solid;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+    border-radius: 5px;
+}
+
+.btn_find {
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    line-height: 33px;
+    background: #4a57a8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn_find > a{
+    color: white;
+}
+
+
+
+
+
+

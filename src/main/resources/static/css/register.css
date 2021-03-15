@@ -1,0 +1,255 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, em, img, strong,
+b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, embed, figure, figcaption, footer, header, nav, section, summary,
+audio, video, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-style: normal;
+}
+
+main {
+    min-height: calc(100vh - 330px);
+}
+
+article, aside, figcaption, figure, footer, header, nav, section, main {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+input, select, textarea, button {
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.r_header.bg {
+    background: #3c4790;
+}
+
+.r_header.bg .dc_logo {
+    top: 30px;
+}
+
+.r_header .r_head{
+    height: 85px;
+}
+
+.r_head {
+    position: relative;
+    width: 868px;
+    height: 105px;
+    margin: 0 auto;
+}
+
+.r_header.bg a {
+    color: white;
+}
+
+.r_logo {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    text-align: center;
+}
+
+.r_logo a{
+    display: block;
+    float: left;
+}
+
+.r_header.bg .area_links {
+    top:47px;
+}
+
+.area_links {
+    position: absolute;
+    top: 9px;
+    right:0;
+}
+
+.area_links a {
+    font-size: 12px;
+}
+
+
+.area_links ul {
+    overflow: hidden;
+    line-height: 19px;
+}
+
+.area_links li {
+    float: left;
+}
+
+.area_links li::before {
+    content: "|";
+    color: #ccc;
+    font-size: 11px;
+    line-height: 11px;
+    padding: 0 3px 0 5px;
+}
+
+.area_links li:first-child:before {
+    display: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#container {
+    width: 868px;
+    margin: 40px auto 0;
+}
+
+.path{
+    width: 868px;
+    height: 60px;
+    background: gray;
+    border-radius: 10px;
+
+}
+
+.path h1 {
+    margin-left: 10px;
+    font-size: 35px;
+    line-height: 60px;
+    color: white;
+}
+
+.content_box {
+    margin: 25px 0 7px;
+}
+
+.content_box.brd {
+    min-height: 400px;
+    border: 1px #cecdce solid;
+    border-radius: 5px;
+}
+
+.con {
+    padding: 60px 0 60px;
+    margin: 0 auto;
+}
+
+.con.register_box {
+    width: 690px;
+    padding-top: 48px;
+}
+
+.form_group {
+    margin-top: 25px;
+}
+
+.form_group:first-of-type {
+    margin-top: 0;
+}
+
+.form_tit {
+    width: 177px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form_tit, .form_txt {
+    float: left;
+}
+
+.form_txt {
+    width: 513px;
+    margin-bottom: 20px;
+}
+
+.int {
+    width: 100%;
+    height: 35px;
+    padding: 0px 9px 0 9px;
+    line-height: 33px;
+    border: 1px #cecdce solid;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.btn_box {
+    margin-top: 25px;
+}
+
+.clear:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    content: "";
+}
+
+.fr {
+    float: right;
+}
+
+.btn_grey {
+    background: grey;
+    border-color: #444;
+    text-shadow: 0px -1px #474747;
+    color: #fff;
+}
+
+.btn_grey.small.btn_next {
+    width: 100px;
+    height: 38px;
+    line-height: 37px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.foot {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 1px solid black;
+    position : relative;
+    bottom : 0;
+    padding-bottom : 50px;
+}
+
+.info {
+    margin: 28px auto 0;
+    text-align: center;
+}
+
+.info a {
+    color : black;
+}
+
+.info a:first-child:before {
+    display: none;
+}
+
+.info a:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 10px;
+    vertical-align: -1px;
+    background: #d7d7d7;
+}
+
+
+
+
