@@ -2,8 +2,8 @@ let registerForm = window.document.body.querySelector("#register-form");
 
 registerForm.onsubmit = function() {
 
-    if (registerForm.elements["email"].value === ""){
-        alert("이메일을 입력해주세요.");
+    if (registerForm.elements["id"].value === ""){
+        alert("아이디를 입력해주세요.");
         registerForm.elements["email"].focus();
         return false;
     } else if (registerForm.elements["password"].value === "") {
@@ -28,6 +28,9 @@ registerForm.onsubmit = function() {
         return false;
     } else if (registerForm.elements["phone"].value === "") {
         alert("전화번호를 입력해주세요.");
+        return false;
+    } else if (registerForm.elements["email"].value === "") {
+        alert("이메일을 입력해주세요.");
         return false;
     } else {
         return true;
