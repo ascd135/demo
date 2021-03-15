@@ -26,6 +26,12 @@ registerForm.onsubmit = function() {
         alert("닉네임을 입력해주세요.");
         registerForm.elements["nickname"].focus();
         return false;
+    } else if (registerForm.elements["phone"].value !=== "") {
+        alert("전화번호를 입력해주세요.");
+        return false;
+    } else if (registerForm.elements["email"].value !=== "") {
+        alert("이메일을 입력해주세요.");
+        return false;
     } else {
         return true;
     }
