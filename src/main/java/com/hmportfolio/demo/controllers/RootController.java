@@ -33,7 +33,7 @@ public class RootController {
         this.boardService = boardService;
     }
 
-    @RequestMapping(value = "/LandingPage", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String landingGet(HttpServletResponse response, HttpServletRequest request) {
         return "LandingPage";
     }
