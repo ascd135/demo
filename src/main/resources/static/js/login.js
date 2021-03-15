@@ -5,7 +5,7 @@ loginForm.onsubmit = function () {
     let emailInput = loginForm.elements["userId"];
     let passwordInput = loginForm.elements["userPw"];
     if (emailInput.value === "") {
-        alert("이메일을 입력해주세요.");
+        alert("아이디를 입력해주세요.");
         emailInput.focus();
         return false;
     } else if (passwordInput.value === "") {

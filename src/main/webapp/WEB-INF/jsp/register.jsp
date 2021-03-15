@@ -25,6 +25,7 @@
     <meta charset="UTF-8">
     <title>회원가입</title>
     <link rel="stylesheet" href="css/register.css">
+    <script defer src="/js/register.js"></script>
 </head>
 <body>
 <header class="r_header bg">
