@@ -214,30 +214,65 @@
     </section>
 
     <section class="scroll-section" id="scroll-section-3">
-        <div class="Project">
-            Project
+        <div class="Projects">
+            Projects
         </div>
         <div class="project-item">
-            <div class="project-item-title">
-                <h1>CCinside</h1>
-            </div>
-            <div class="project-item-intro">
-                <p>
-                    'DCinside' 커뮤니티를 클론 코딩한 사이트입니다. 회원가입과 로그인, 게시판 기능을 구현하였습니다.
-                    <br>
-                    2020.12
-                </p>
-            </div>
-            <div class="project-item-button">
-                <div class="github">
-                    GitHub
+            <div class="project-item-container">
+                <div class="project-item-image">
+                    <img src="/images/ccinside.PNG">
                 </div>
-                <div class="visit">
-                    <a href="/main">이동</a>
+                <div class="project-item-title">
+                    <h1>CCinside</h1>
+                </div>
+                <div class="project-item-intro">
+                    <p>
+                        'DCinside' 커뮤니티를 클론 코딩한 사이트입니다. 회원가입과 로그인, 게시판 기능을 구현하였습니다.
+                    </p>
+                </div>
+                <div class="project-item-date">
+                    <p>
+                        2020.12
+                    </p>
+                </div>
+                <div class="project-item-button">
+                    <div class="github">
+                        <a href="https://github.com/ascd135/demo">GitHub</a>
+                    </div>
+                    <div class="visit">
+                        <a href="/main">이동</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item-container">
+                <div class="project-item-image">
+                    <img src="/images/나만따라yu.png">
+                </div>
+                <div class="project-item-title">
+                    <h1>나만따라YU</h1>
+                </div>
+                <div class="project-item-intro">
+                    <p>
+                        영남대학교 대학생들만 사용할 수 있는 웹 커뮤니티 입니다.
+                        <br>
+                        6명이 모여 개발을 하였고, 저는 front-end 를 맡았습니다.
+                    </p>
+                </div>
+                <div class="project-item-date">
+                    <p>
+                        2020.12
+                    </p>
+                </div>
+                <div class="project-item-button">
+                    <div class="github">
+                        <a href="https://github.com/leeys507/WebProject">GitHub</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+</div>
 </div>
 
 <div class="contact" id="contact">
