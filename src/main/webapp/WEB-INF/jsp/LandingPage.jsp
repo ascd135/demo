@@ -273,7 +273,6 @@
         </div>
     </section>
 </div>
-</div>
 
 <div class="contact" id="contact">
     <div class="contact-title">
