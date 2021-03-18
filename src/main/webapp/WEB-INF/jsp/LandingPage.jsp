@@ -265,7 +265,7 @@
                 </div>
                 <div class="project-item-button">
                     <div class="github">
-                        GitHub
+                        <a href="https://github.com/leeys507/WebProject">GitHub</a>
                     </div>
                 </div>
             </div>
